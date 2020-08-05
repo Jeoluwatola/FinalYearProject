@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163489557-2"></script>
+    <script>    
+    document.addEventListener('DOMContentLoaded', (event) => {
+        var user= document.querySelector('.user');       
+        user.style.display="none"
+        var USER_ID = user.textContent   
+        window.dataLayer = window.dataLayer || [];        
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());        
+        gtag('set', {'user_id': USER_ID}); // Set the user ID using signed-in user_id.
+        gtag('config', 'UA-163489557-2');
+        })   
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-P36VZFP');</script>
+    <!-- End Google Tag Manager -->   
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://storage.googleapis.com/instant-binder-251011-test/css/E-learning.css">
+  <title>Top 10 wealthiest countries in the world as at 2019</title>
+</head>
+
+<body class="Assess"> 
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P36VZFP"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="user">
+        <p>{{USER_ID}}</p>
+    </div>
+
+    <nav class="navbar  navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="Courses.html">Home</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="/profile">Profile</a></li>  
+            <!-- <li><a href="#">History</a></li> -->
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="Home.html">Logout</a></li>
+          </ul>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>   
+   
+
+    <div class="container test">
+      <form class="Assessment1" method="POST" action="/submit">
+        <div class="q0">
+          <h3>Top 10 wealthiest countries in the world as at 2019 assessment</h3>        
+          <h3>Please answer the questions as correctly as possible. Good luck!</h3><br>  
+  
+          <button type="button" class="btn next btn-primary">Start</button>
+        </div> 
+
+        <div class="q1 hidden">        
+          <p>1.	Developing countries that have doubled their wealth in the past decade are mostly located in what regions?</p><br>
+
+          <div class="bold">
+          <input type="radio" name="q1" id="one" value=True>  
+          <label for="one"><p>Asia and Africa</p></label><br>
+                      
+          <input type="radio" name="q1" id="two" value=False> 
+          <label for="two"><p>Asia and Europe</p></label><br>
+          
+          <input type="radio" name="q1" id="three" value=False> 
+          <label for="three"><p>Africa and Europe</p></label><br>   
+
+          <input type="radio" name="q1" id="four" value=False> 
+          <label for="four"><p>North America and South America</p></label><br>   
+
+          <button type="button" class="btn next btn-primary">Next</button>
+          </div>
+
+        </div> 
+
+        <div class="q2 hidden">   
+          <p>2.	All of these countries have doubled their wealth in the past decade except which one?</p><br>     
+          
+          <div class="bold">
+          <input type="radio" name="q2" id="one" value=False>  
+          <label for="one"><p>Canada</p></label><br>
+                      
+          <input type="radio" name="q2" id="two" value=False> 
+          <label for="two"><p>India</p></label><br>
+          
+          <input type="radio" name="q2" id="three" value=True> 
+          <label for="three"><p>Nigeria</p></label><br>   
+
+          <input type="radio" name="q2" id="four" value=False> 
+          <label for="four"><p>Germany</p></label><br>   
+
+          <button type="button" class="btn next btn-primary">Next</button>
+          </div>
+        </div> 
+
+        <div class="q3 hidden">         
+          <p>3.	Which of these countries lost their wealth by half in the last ten years?</p><br>       
+          
+          <div class="bold">
+          <input type="radio" name="q3" id="one" value=False>  
+          <label for="one"><p>Nigeria</p></label><br>
+                      
+          <input type="radio" name="q3" id="two" value=False> 
+          <label for="two"><p>Ghana</p></label><br>
+          
+          <input type="radio" name="q3" id="three" value=True> 
+          <label for="three"><p>Venezuela</p></label><br>   
+
+          <input type="radio" name="q3" id="four" value=False> 
+          <label for="four"><p>Kenya</p></label><br>   
+
+          <button type="button" class="btn next btn-primary">Next</button>
+          </div> 
+        </div> 
+
+        <div class="q4 hidden">         
+          <p>4.	Which country was ranked number 8?</p><br>       
+          
+          <div class="bold">
+          <input type="radio" name="q4" id="one" value=False>  
+          <label for="one"><p>Italy</p></label><br>
+                      
+          <input type="radio" name="q4" id="two" value=False> 
+          <label for="two"><p>France</p></label><br>
+          
+          <input type="radio" name="q4" id="three" value=True> 
+          <label for="three"><p>Canada</p></label><br>   
+
+          <input type="radio" name="q4" id="four" value=False> 
+          <label for="four"><p>Australia</p></label><br>   
+
+          <button type="button" class="btn next btn-primary">Next</button>
+          </div> 
+        </div> 
+
+        <div class="q5 hidden">  
+          <p>5.	What position was Germany ranked?</p><br>       
+          
+          <div class="bold">
+          <input type="radio" name="q5" id="one" value=False>  
+          <label for="one"><p>6th</p></label><br>
+                      
+          <input type="radio" name="q5" id="two" value=True> 
+          <label for="two"><p>5th</p></label><br>
+          
+          <input type="radio" name="q5" id="three" value=False> 
+          <label for="three"><p>7th</p></label><br>   
+
+          <input type="radio" name="q5" id="four" value=False> 
+          <label for="four"><p>3rd</p></label><br>   
+
+          <button type="button" class="btn next btn-primary">Next</button>
+          </div>           
+        </div> 
+
+        <div class="q6 hidden">    
+          <p>6.	Which country had a growth rate of 27%?</p><br>       
+          
+          <div class="bold">
+          <input type="radio" name="q6" id="one" value=False>  
+          <label for="one"><p>UK</p></label><br>
+                      
+          <input type="radio" name="q6" id="two" value=False> 
+          <label for="two"><p>Japan</p></label><br>
+          
+          <input type="radio" name="q6" id="three" value=False> 
+          <label for="three"><p>China</p></label><br>   
+
+          <input type="radio" name="q6" id="four" value=True> 
+          <label for="four"><p>USA</p></label><br>   
+
+          <button type="button" class="btn next btn-primary">Next</button>
+          </div>
+        </div>
+
+        <div class="q7 hidden">         
+          <p>7.	Which country’s wealth was $9.1 trillion?</p><br>       
+          
+          <div class="bold">
+          <input type="radio" name="q7" id="one" value=True>  
+          <label for="one"><p>UK</p></label><br>
+                      
+          <input type="radio" name="q7" id="two" value=False> 
+          <label for="two"><p>Japan</p></label><br>
+          
+          <input type="radio" name="q7" id="three" value=False> 
+          <label for="three"><p>China</p></label><br>   
+
+          <input type="radio" name="q7" id="four" value=False> 
+          <label for="four"><p>USA</p></label><br>   
+
+          <button type="button" class="btn next btn-primary">Next</button>
+          </div>
+        </div> 
+
+        <div class="q8 hidden">         
+          <p>8.	Which country had the highest growth rate and what percentage?</p><br>       
+          
+          <div class="bold">
+          <input type="radio" name="q8" id="one" value=False>  
+          <label for="one"><p>India- 96%</p></label><br>
+                      
+          <input type="radio" name="q8" id="two" value=True> 
+          <label for="two"><p>China- 130%</p></label><br>
+          
+          <input type="radio" name="q8" id="three" value=False> 
+          <label for="three"><p>India- 130%</p></label><br>   
+
+          <input type="radio" name="q8" id="four" value=False> 
+          <label for="four"><p>China- 96%</p></label><br>   
+
+          <button type="button" class="btn next btn-primary">Next</button>
+          </div>
+        </div> 
+
+        <div class="q9 hidden">         
+          <p>9.	Which two countries had negative growth rates?</p><br>       
+          
+          <div class="bold">
+          <input type="radio" name="q9" id="one" value=False>  
+          <label for="one"><p>Germany and Australia</p></label><br>
+                      
+          <input type="radio" name="q9" id="two" value=True> 
+          <label for="two"><p>Italy and France</p></label><br> 
+
+          <input type="radio" name="q10" id="three" value=False> 
+          <label for="three"><p>Australia and France</p></label><br>   
+
+          <input type="radio" name="q10" id="four" value=False> 
+          <label for="four"><p>Italy and Australia</p></label><br>
+
+          <button type="button" class="btn next btn-primary">Next</button>
+          </div>
+        </div> 
+
+        <div class="q10 hidden">         
+          <p>10. Which country was ranked number one?</p><br>       
+          
+          <div class="bold">
+          <input type="radio" name="q10" id="one" value=True>  
+          <label for="one"><p>USA</p></label><br>
+                      
+          <input type="radio" name="q10" id="two" value=False> 
+          <label for="two"><p>Japan</p></label><br>
+          
+          <input type="radio" name="q10" id="three" value=False> 
+          <label for="three"><p>China</p></label><br>   
+
+          <input type="radio" name="q10" id="four" value=False> 
+          <label for="four"><p>North Korea</p></label><br>   
+          
+          <button type="submit" class="btn sub btn-primary">Submit</button>
+          </div>
+        </div> 
+ 
+    </form>
+
+  <script>
+      //setting user_id
+    var user= document.querySelector('.user');       
+    user.style.display="none"
+    var USER_ID = user.textContent
+    
+    
+    //Switching page content
+    var i = 0
+    var q0= document.querySelector('.q0');
+    var q1= document.querySelector('.q1');
+    var q2= document.querySelector('.q2');
+    var q3= document.querySelector('.q3');
+    var q4= document.querySelector('.q4');
+    var q5= document.querySelector('.q5');
+    var q6= document.querySelector('.q6');
+    var q7= document.querySelector('.q7');
+    var q8= document.querySelector('.q8');
+    var q9= document.querySelector('.q9');
+    var q10= document.querySelector('.q10');
+    var next= document.querySelectorAll(".next")
+    // var tink=document.querySelectorAll(".ren")
+    
+    Array.from(next).forEach(function (text) {
+      text.addEventListener('mousedown',function (e) {
+        i = i+1
+        if (i == 1){
+          q0.classList.add('hidden')
+          q1.classList.remove('hidden') 
+        }   
+        if (i == 2){
+          q1.classList.add('hidden')
+          q2.classList.remove('hidden') 
+        }         
+        if (i == 3){
+          q2.classList.add('hidden')
+          q3.classList.remove('hidden') 
+        }
+        if (i == 4){
+          q3.classList.add('hidden')
+          q4.classList.remove('hidden') 
+        }  
+        if (i == 5){
+          q4.classList.add('hidden')
+          q5.classList.remove('hidden') 
+        }  
+        if (i == 6){
+          q5.classList.add('hidden')
+          q6.classList.remove('hidden') 
+        }  
+        if (i == 7){
+          q6.classList.add('hidden')
+          q7.classList.remove('hidden') 
+        }  
+        if (i == 8){
+          q7.classList.add('hidden')
+          q8.classList.remove('hidden') 
+        }  
+        if (i == 9){
+          q8.classList.add('hidden')
+          q9.classList.remove('hidden') 
+        } 
+        if (i == 10){
+          q9.classList.add('hidden')
+          q10.classList.remove('hidden') 
+        }   
+            
+      })
+    })
+    
+    <!-- console.log(next,i)  -->
+  </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

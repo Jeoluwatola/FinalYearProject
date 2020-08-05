@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163489557-2"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+        var user= document.querySelector('.user');       
+        user.style.display="none"
+        var USER_ID = user.textContent   
+        window.dataLayer = window.dataLayer || [];        
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());        
+        gtag('set', {'user_id': USER_ID}); // Set the user ID using signed-in user_id.
+        gtag('set', {'dimension1': USER_ID});
+        gtag('config', 'UA-163489557-2');
+        })             
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-P36VZFP');</script>
+    <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://storage.googleapis.com/instant-binder-251011-test/css/E-learning.css">
+  <title>Courses</title>
+</head>
+
+<body class="back_one">  
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P36VZFP"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="user">
+        <p>{{USER_ID}}</p>
+    </div>
+
+    <nav class="navbar  navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/Courses">Home</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="/profile">Profile</a></li>
+            <!-- <li><a href="#">History</a></li> -->
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/">Logout</a></li>
+          </ul>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <form class="search" action="#">
+        <input type="search" name="search_bar" class="search-bar" placeholder="  Search here..."><br>
+      </form>
+      <p id="call">Available courses</p><br>
+        <div class="col-lg-3 col-sm-6 col-xs-6" id="course">
+            <img src="https://storage.googleapis.com/instant-binder-251011-test/Images/Thumb1.jpg" class="thumbnail" id="thumbs" alt="">
+            <a href="/citiesbypopulation" id="link">Top 20 cities by population</a>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-xs-6" id="course">
+            <img src="https://storage.googleapis.com/instant-binder-251011-test/Images/Thumb2.jpg" class="thumbnail" id="thumbs" alt="">
+            <a href="/wealthiestcountries" id="link">Top 10 wealthiest countries in the world as at 2019</a>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-xs-6" id="course">
+            <img src="https://storage.googleapis.com/instant-binder-251011-test/Images/Thumb3.jpg" class="thumbnail" id="thumbs" alt="">
+            <a href="/brandsbyrevenue" id="link">Top 20 Brands 2019 by Revenue (US)</a>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-xs-6" id="course">
+            <img src="https://storage.googleapis.com/instant-binder-251011-test/Images/Thumb4.jpg" class="thumbnail" id="thumbs" alt="">
+            <a href="/highestimports" id="link">Top 20 Countries by Highest Imports 2019</a>
+        </div>
+        <div class="col-lg-3 col-sm-6 col-xs-6" id="course">
+            <img src="https://storage.googleapis.com/instant-binder-251011-test/Images/Thumb5.jpg" class="thumbnail" id="thumbs" alt="">
+            <a href="/internetusers" id="link">Top 20 Countries by Internet Users</a>
+        </div>
+
+      
+    </div>    
+  <script>
+    //setting user_id
+    var user= document.querySelector('.user');       
+    user.style.display="none"
+    var USER_ID = user.textContent
+    
+    
+      
+
+    // configuring the seach bar
+      var search= document.querySelector('.search').querySelector('input');
+    search.addEventListener('keyup', function (e) {
+        var term=e.target.value.toLowerCase();
+        const list= document.querySelectorAll('#course');    
+        Array.from(list).forEach(function(text) {
+            const ref=text.querySelector('#link');
+            var content=ref.textContent;        
+            if(content.toLowerCase().indexOf(term) !=-1){
+                text.style.display = 'block';
+            }else{
+                text.style.display='none'
+            }
+        })
+    })
+
+    search.addEventListener('keypress', function(event){
+      if(event.key=='Enter'){        
+        // document.reload();
+        
+        var term = search.value.toLowerCase();
+        const list= document.querySelectorAll('#course');    
+        Array.from(list).forEach(function(text) {
+          
+            const ref=text.querySelector('#link');
+            var content=ref.textContent;        
+            if(content.toLowerCase().indexOf(term) !=-1){
+                text.style.display = 'block';
+            }else{
+                text.classList.add('hidden');
+            }
+        })
+      }
+    })
+
+    // configuring the course links
+    var links =document.querySelectorAll('#link')
+    Array.from(links).forEach(function(text) {
+        text.addEventListener('mousedown',function (e) { 
+            if (e.which === 1 || e.which === 3){
+                if (this.textContent == 'Top 20 cities by population'){
+                    var num ="one";
+                    localStorage.setItem('number',num)                      
+                }
+                else if (this.textContent == 'Top 10 wealthiest countries in the world as at 2019' ){
+                  var num ="two";
+                    localStorage.setItem('number',num)
+                }
+                else if (this.textContent == 'Top 20 Brands 2019 by Revenue (US)' ){
+                  var num ="three";
+                    localStorage.setItem('number',num)
+                }
+                else if (this.textContent == 'Top 20 Countries by Highest Imports 2019' ){
+                  var num ="four";
+                    localStorage.setItem('number',num)
+                }
+                else if (this.textContent == 'Top 20 Countries by Internet Users' ){
+                  var num ="five";
+                    localStorage.setItem('number',num)
+                }
+            }
+        })    
+    })
+    </script>
+    <!-- <script src="E-learning.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+</body>
+</html>

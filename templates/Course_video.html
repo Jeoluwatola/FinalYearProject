@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163489557-2"></script>
+  <script>    
+    document.addEventListener('DOMContentLoaded', (event) => {
+        var user= document.querySelector('.user');       
+        user.style.display="none"
+        var USER_ID = user.textContent   
+        window.dataLayer = window.dataLayer || [];        
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());        
+        gtag('set', {'user_id': USER_ID}); // Set the user ID using signed-in user_id.
+        gtag('set', {'dimension1': USER_ID});
+        gtag('config', 'UA-163489557-2');
+        })   
+  </script> 
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-P36VZFP');</script>
+    <!-- End Google Tag Manager -->
+    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://storage.googleapis.com/instant-binder-251011-test/css/E-learning.css">
+  <title>Course Video</title>
+</head>
+
+<body class="Video">  
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P36VZFP"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="user">
+        <p>{{USER_ID}}</p>
+    </div>
+
+  <nav class="navbar  navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/Courses">Home</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="/profile">Profile</a></li>  
+          <!-- <li><a href="#">History</a></li> -->
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/">Logout</a></li>
+        </ul>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="whole_content_one hidden"> 
+    <div class="video_text">
+      <video src="https://storage.googleapis.com/instant-binder-251011-test/Videos/Course1" controls></video>          
+    
+        <div class="related">
+          <h3>Related videos</h3>          
+          <img src="https://storage.googleapis.com/instant-binder-251011-test/Images/Thumb2.jpg" alt="" class="thumbnail" id="thumbs">
+          <a href="/wealthiestcountries" id="link">Top 10 wealthiest countries in the world as at 2019</a>
+          <p></p>
+          <img src="https://storage.googleapis.com/instant-binder-251011-test/Images/Thumb3.jpg" alt="" class="thumbnail" id="thumbs">
+          <a href="/brandsbyrevenue" id="link">Top 20 Brands 2019 by Revenue (US)</a>
+          <p></p>
+          <img src="https://storage.googleapis.com/instant-binder-251011-test/Images/Thumb4.jpg" alt="" class="thumbnail" id="thumbs">
+          <a href="/highestimports" id="link">Top 20 Countries by Highest Imports 2019</a>
+          <p></p>
+          <img src="https://storage.googleapis.com/instant-binder-251011-test/Images/Thumb5.jpg" alt="" class="thumbnail" id="thumbs">
+          <a href="/internetusers" id="link">Top 20 Countries by Internet Users</a>
+          <p></p>
+        </div>
+    </div>
+
+    <div class="white">
+      <p id="corse1">This video gives the order of the top 20 cities in the world ranked by population</p>
+      <a href="/citiesbypopulation/assessment" id="assess_one">Take Assessment</a><br> 
+    </div>       
+  </div>
+
+  <div class="whole_content_two hidden"> 
+    <div class="video_text">
+      <video src="https://storage.googleapis.com/instant-binder-251011-test/Videos/Course2" controls></video>          
+    
+        <div class="related">
+          <h3>Related videos</h3>
+          <img src="https://storage.googleapis.com/instant-binder-251011-test/Images/Thumb1.jpg" alt="" class="thumbnail" id="thumbs">
+          <a href="/citiesbypopulation" id="link">Top 20 cities by population</a><br>
+          <p></p>
+          <img src="https://storage.googleapis.com/instant-binder-251011-test/Images/Thumb3.jpg" alt="" class="thumbnail" id="thumbs">
+          <a href="/brandsbyrevenue" id="link">Top 20 Brands 2019 by Revenue (US)</a>
+          <p></p>
+          <img src="https://storage.googleapis.com/instant-binder-251011-test/Images/Thumb4.jpg" alt="" class="thumbnail" id="thumbs">
+          <a href="/highestimports" id="link">Top 20 Countries by Highest Imports 2019</a>
+          <p></p>
+          <img src="https://storage.googleapis.com/instant-binder-251011-test/Images/Thumb5.jpg" alt="" class="thumbnail" id="thumbs">
+          <a href="/internetusers" id="link">Top 20 Countries by Internet Users</a>
+          <p></p>
+        </div>
+    </div>
+
+    <div class="white">
+      <p id="corse1">This video gives the order of the top 10 wealthiest countries in the world as at 2019</p>
+
+      <a href="/wealthiestcountries/assessment" id="assess_two">Take Assessment</a><br> 
+    </div>       
+  </div>
+
+  <div class="whole_content_three hidden"> 
+    <div class="video_text">
+      <video src="https://storage.googleapis.com/instant-binder-251011-test/Videos/Course3" controls></video>          
+    
+        <div class="related">
+          <h3>Related videos</h3>
+          <img src="https://storage.googleapis.com/instant-binder-251011-test/Images/Thumb1.jpg" alt="" class="thumbnail" id="thumbs">
+          <a href="/citiesbypopulation" id="link">Top 20 cities by population</a><br>
+          <p></p>
+          <img src="https://storage.googleapis.com/instant-binder-251011-test/Images/Thumb2.jpg" alt="" class="thumbnail" id="thumbs">
+          <a href="/wealthiestcountries" id="link">Top 10 wealthiest countries in the world as at 2019</a>
+          <p></p>         
+          <img src="https://storage.googleapis.com/instant-binder-251011-test/Images/Thumb4.jpg" alt="" class="thumbnail" id="thumbs">
+          <a href="/highestimports" id="link">Top 20 Countries by Highest Imports 2019</a>
+          <p></p>
+          <img src="https://storage.googleapis.com/instant-binder-251011-test/Images/Thumb5.jpg" alt="" class="thumbnail" id="thumbs">
+          <a href="/internetusers" id="link">Top 20 Countries by Internet Users</a>
+          <p></p>
+        </div>
+    </div>
+
+    <div class="white">
+      <p id="corse1">This video gives the order of the top 20 US brands as at 2019 ranked by revenue</p>
+
+      <a href="/brandsbyrevenue/assessment" id="assess_three">Take Assessment</a><br> 
+    </div>       
+  </div>
+
+  <div class="whole_content_four hidden"> 
+    <div class="video_text">
+      <video src="https://storage.googleapis.com/instant-binder-251011-test/Videos/Course4" controls></video>          
+    
+        <div class="related">
+          <h3>Related videos</h3>
+          <img src="https://storage.googleapis.com/instant-binder-251011-test/Images/Thumb1.jpg" alt="" class="thumbnail" id="thumbs">
+          <a href="/citiesbypopulation" id="link">Top 20 cities by population</a><br>
+          <p></p>
+          <img src="https://storage.googleapis.com/instant-binder-251011-test/Images/Thumb2.jpg" alt="" class="thumbnail" id="thumbs">
+          <a href="/wealthiestcountries" id="link">Top 10 wealthiest countries in the world as at 2019</a>
+          <p></p>
+          <img src="https://storage.googleapis.com/instant-binder-251011-test/Images/Thumb3.jpg" alt="" class="thumbnail" id="thumbs">
+          <a href="/brandsbyrevenue" id="link">Top 20 Brands 2019 by Revenue (US)</a>
+          <p></p>          
+          <img src="https://storage.googleapis.com/instant-binder-251011-test/Images/Thumb5.jpg" alt="" class="thumbnail" id="thumbs">
+          <a href="/internetusers" id="link">Top 20 Countries by Internet Users</a>
+          <p></p>
+        </div>
+    </div>
+
+    <div class="white">
+      <p id="corse1">This video gives the order of the top 20 countries ranked by highest imports as at 2019</p>
+      <a href="/highestimports/assessment" id="assess_four">Take Assessment</a><br> 
+    </div>       
+  </div>
+
+  <div class="whole_content_five hidden"> 
+    <div class="video_text">
+      <video src="https://storage.googleapis.com/instant-binder-251011-test/Videos/Course5" controls></video>          
+    
+        <div class="related">
+          <h3>Related videos</h3>
+          <img src="https://storage.googleapis.com/instant-binder-251011-test/Images/Thumb1.jpg" alt="" class="thumbnail" id="thumbs">
+          <a href="/citiesbypopulation" id="link">Top 20 cities by population</a><br>
+          <p></p>
+          <img src="https://storage.googleapis.com/instant-binder-251011-test/Images/Thumb2.jpg" alt="" class="thumbnail" id="thumbs">
+          <a href="/wealthiestcountries" id="link">Top 10 wealthiest countries in the world as at 2019</a>
+          <p></p>
+          <img src="https://storage.googleapis.com/instant-binder-251011-test/Images/Thumb3.jpg" alt="" class="thumbnail" id="thumbs">
+          <a href="/brandsbyrevenue" id="link">Top 20 Brands 2019 by Revenue (US)</a>
+          <p></p>
+          <img src="https://storage.googleapis.com/instant-binder-251011-test/Images/Thumb4.jpg" alt="" class="thumbnail" id="thumbs">
+          <a href="/highestimports" id="link">Top 20 Countries by Highest Imports 2019</a>          
+        </div>
+    </div>
+
+    <div class="white">
+      <p id="corse1">This video gives the top 20 countries in the world ranked by the number of internet users</p>
+      <a href="/internetusers/assessment" id="assess_five">Take Assessment</a><br> 
+    </div>       
+  </div>
+  
+  <script>
+      //setting user_id
+    var user= document.querySelector('.user');       
+    user.style.display="none"
+    var USER_ID = user.textContent
+    
+    
+    // setting page content
+    var num = localStorage.getItem('number');
+    var one= document.querySelector('.whole_content_one');
+    var two= document.querySelector('.whole_content_two');
+    var three= document.querySelector('.whole_content_three');
+    var four= document.querySelector('.whole_content_four');
+    var five= document.querySelector('.whole_content_five');
+    if (num=='one'){
+        one.classList.remove('hidden');     
+    }
+    else if(num=='two'){
+        two.classList.remove('hidden');
+    }
+    else if(num=='three'){
+        three.classList.remove('hidden');
+    }
+    else if(num=='four'){
+        four.classList.remove('hidden');
+    }
+    else if(num=='five'){
+        five.classList.remove('hidden');
+    }
+
+    // setting related videos links 
+    // best practice would have been to set different ids, enclose in divs, select using childElement and use id as checkers in if statements using getAttribute.
+    var links =document.querySelectorAll('#link')
+    Array.from(links).forEach(function(text) {
+        text.addEventListener('mousedown',function (e) { 
+            if (e.which === 1 || e.which === 3){
+                if (this.textContent == 'Top 20 cities by population'){
+                    var num ="one";
+                    localStorage.setItem('number',num);                     
+                }
+                else if (this.textContent == 'Top 10 wealthiest countries in the world as at 2019' ){
+                  var num ="two";
+                    localStorage.setItem('number',num);
+                }
+                else if (this.textContent == 'Top 20 Brands 2019 by Revenue (US)' ){
+                  var num ="three";
+                    localStorage.setItem('number',num);
+                }
+                else if (this.textContent == 'Top 20 Countries by Highest Imports 2019' ){
+                  var num ="four";
+                    localStorage.setItem('number',num);
+                }
+                else if (this.textContent == 'Top 20 Countries by Internet Users' ){
+                  var num ="five";
+                    localStorage.setItem('number',num);
+                }
+            }
+        })    
+    })
+
+    // seting assessment links
+    var access= document.querySelectorAll('.white');
+Array.from(access).forEach(function(text){
+    var red= text.querySelector('a');       
+    red.addEventListener('mousedown',function (e) {         
+        if (e.which === 1 || e.which === 3){
+            if (this.getAttribute('id') == 'assess_one'){
+                var num ="one";
+                localStorage.setItem('number',num)                      
+            }
+            else if (this.getAttribute('id') == 'assess_two' ){
+              var num ="two";
+                localStorage.setItem('number',num)
+            }
+            else if (this.getAttribute('id') == 'assess_three' ){
+              var num ="three";
+                localStorage.setItem('number',num)
+            }
+            else if (this.getAttribute('id') == 'assess_four' ){
+              var num ="four";
+                localStorage.setItem('number',num)
+            }
+            else if (this.getAttribute('id') == 'assess_five' ){
+              var num ="five";
+                localStorage.setItem('number',num)
+            }
+        }
+    })
+})
+  </script>
+  <!-- <script src="E-learning.js" charset="utf8"></script>   -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+    
+</body>
+
+</html>
