@@ -1,0 +1,315 @@
+a{
+    color: white;
+}
+
+.Assess{
+    background-image: url("https://storage.googleapis.com/instant-binder-251011-test/Images/Assessment.jpg");
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;     
+    color: white;    
+}
+
+.Assessment1{
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.back_one{
+    background: url("https://storage.googleapis.com/instant-binder-251011-test/Images/Library.jpg");
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; 
+    color: white;    
+}
+
+.bodied{     
+    background-color:#5D4D40;
+    color: white; 
+    margin-bottom: 0px;   
+    padding-bottom: 0px;
+}
+
+.bold{
+    margin-left: 50px;
+}
+
+.boton{
+    margin-right:150px; 
+}
+
+.box{
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+}
+
+#call{
+    margin-top: 100px;
+}
+
+.chk1{
+    display: none;
+}
+
+.chk2{
+    display: none;
+}
+
+.chk3{
+    display: none;
+}
+
+.contain{
+    padding-left:100px ;
+    /* width: 100%; */
+}
+
+#corse1{
+    width: fit-content;    
+}
+
+#course{
+        margin-top: 20px;
+    
+}
+
+#course1{
+    padding-right: 30px;
+    color: white;
+}
+
+#course2{
+    padding-right: 30px;
+}
+
+#course3{
+    padding-right: 30px;
+}
+
+#course4{
+    padding-right: 30px;
+}
+
+#course5{
+    padding-right: 30px;    
+}
+
+#edit-profile{
+    color: pink;
+}
+
+.error{
+    background-color: #F2DEDE;
+    color:#A94442;
+    /* display: none; */
+    
+}
+
+.error2{
+    background-color: #F2DEDE;
+    color:#A94442;
+    /* display: none; */
+}
+
+.error3{
+    background-color: #F2DEDE;
+    color:#A94442;    
+    margin-right: 50px;
+    /* display: none;     */
+}
+
+.foot1{
+    background-color:#222222 ;
+    text-align: center;
+    height: 30px;
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+}
+
+.footer{
+    background-color:#222222 ;
+    text-align: center;
+    height: 30px;   
+    position: absolute;
+    bottom: -10; left: 0; right: 0;      
+}
+
+form{    
+    padding-left:50px; 
+    margin-left:0px;
+}
+
+h1{
+    margin-bottom: 100px;    
+}
+
+#home_img{    
+    width: 50%;
+    height: 750px;         
+}
+
+#initials{
+    background-color:#9A171B;    
+    margin-top:50px;
+    padding-top: 60px;
+    padding-bottom: 20px;    
+    padding-left: 65px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;    
+}
+
+#link{
+    font-size: 100%;
+    width: 200px;
+}
+
+.log_in{
+    width: 50%;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    border-top: 50px solid #222222;   
+    border-bottom: 30px solid #222222;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.next{
+    margin-left: 500px;
+    width: 100px;
+    height: 40px;
+}
+
+.others{
+    float: right;    
+    margin-top: 50px;
+    margin-right:100px;
+}
+
+.profile-text{
+    float: left;
+}
+
+.related{
+    padding-top: 30px;
+    /* padding-left:450px ; */
+    margin-left: 10%;
+}
+
+.search-bar{
+    border-radius: 30px;
+    float: right;    
+    color: black;
+    padding-left: 10px;
+    height: 40px;
+    width: 250px;
+    margin-right: 100px;
+    outline: none;
+}
+
+.signin{    
+    display: flex;
+    align-items: center;    
+}
+
+.sub{
+    margin-left: 500px;
+    width: 100px;
+    height: 40px;
+}
+
+.Tain{       
+    border-bottom: 30px solid #222222;
+    padding-bottom: 450px;
+    margin-bottom: 0px;
+}
+
+#thank{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 70px;
+    /* font-weight: 450; */
+}
+
+#thumbs{
+    width: 200px;
+    height: 100px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+} 
+
+#thumbs1{
+    width: 30%;
+    height: 10%;
+}
+
+.white{
+    color: white;
+    /* margin-bottom: 10px; */
+    padding-bottom: 0%;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+#vbox{
+    margin-left:20px;
+}
+
+#verify{
+    padding-top: 100px;
+}
+
+#veriform{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    
+}
+
+.verily{
+    padding-bottom: 520px;
+}
+
+#very{
+    margin-left:20px;
+}
+
+.Video{
+    background-color: #5D4D40;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;  
+    color: white;
+    text-decoration: white;
+    text-decoration-color: white;
+}
+
+video{
+    margin-top: 40px;  
+    padding-top: 0px;
+    /* float: left;   */
+    width: 70%;    
+    border: 30px solid #5D4D40;
+    height: 80%;  
+    outline: none;
+    margin-right: 20px;
+    margin-left: 70px;
+}
+
+.video_text{
+    display: inline-flex;
+}
